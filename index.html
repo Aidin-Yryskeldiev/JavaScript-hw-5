@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home Work №5</title>
+	</head>
+	<body>
+		<script>
+			//Задача №1
+			const car = {
+				brand: "Mercedes",
+				model: "Maybach",
+				year: 2023, //Задача №3 Обновил year
+				color: "red", //Задача №4 Добавил color
+			};
+			console.log(car);
+			//Задача №2
+			console.log(car.year, 2004);
+
+			//Задача №5
+			delete car.model;
+
+			//Задача №6
+			const displayinfo = {
+				company: "Tesla Motors",
+				founder: "Elon Musk",
+				brand: "Tesla",
+				model: "Tesla Model X",
+				year: 2012,
+				color: "white",
+			};
+			console.log(displayinfo);
+
+			//Задача №7
+			const person = {
+				country: "Kyrgyzstan",
+				city: "Bishkek",
+				address: {
+					name: "tunguch",
+					street: "ankara",
+				},
+			};
+			console.log(person);
+			//Задача №8 Сравнение 2 обьекта
+			const obg1 = {
+				name: "aidin",
+				address: "tunguch",
+			};
+
+			const obg2 = {
+				name: "aidin",
+				address: "tunguch",
+			};
+			console.log(obg1 === obg2);
+
+			//Задача №9
+			const total = {
+				myName: "Aidin",
+				myAge: "16",
+			};
+			const job = "job";
+
+			const value = "developer";
+
+			total[job] = value;
+			console.log(total);
+		</script>
+	</body>
+</html>
